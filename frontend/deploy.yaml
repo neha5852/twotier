@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: myappfe
-        image: image-registry.openshift-image-registry.svc:5000/mycart/cart-fe:latest
+        image: image-registry.openshift-image-registry.svc:5000/default/cart-fe@sha256:e10342b12908ecb7cde5a8a408d5fdd0cd3d89da0e00b0c8dbb4aeeee9dea2d6
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
